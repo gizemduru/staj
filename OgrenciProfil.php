@@ -115,11 +115,5 @@ class Ogrenci
 	
 	
 }
-$a = new Ogrenci("gfmf","hgöhgjö","hgmhgm","gfmf","hgöhgjö","hgmhgm","gfmf","hgöhgjö","hgmhgm","gfmf","hgöhgjö");
-echo $a->getAd();
-
-$a->setAd("aa");
-echo $a->getAd();
-
 
 ?>
