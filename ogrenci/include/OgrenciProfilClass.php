@@ -5,7 +5,6 @@ class Ogrenci
 	private $ad;
 	private $soyad;
 	private $okulNu;
-	private $bolum;
 	private $fotoraf;
 	private $telNu;
 	private $cinsiyet;
