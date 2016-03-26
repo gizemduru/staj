@@ -31,20 +31,22 @@
     	<div class="sol">Yetki:</div>
         <div class="sag">
             <select name="yetki" id="yetki" size="1">
-			<option value="yetki">Öğrenci</option>
-            <option value="yetki">Akademisyen</option>
-			<option value="yetki">İşveren</option></select>
+			<option selected value="0">Öğrenci</option>
+            <option value="1">Akademisyen</option>
+			<option value="2">İşveren</option></select>
 
         </div>
     </div>
     <div class="orta">
-   <?php include_once("/include/isyeriuyeol.php");?>
+   <?php include_once("ogrenciuyeol.php");?>
     </div><div id="gonder">
 <input name="kaydol" type="button" value="Kaydol" />
 </div>
 </div>
 </div>
-
+<div class="clear">
+	
+</div>
 </form>
 
 
