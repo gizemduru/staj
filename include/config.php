@@ -4,6 +4,6 @@
 	define("pass","");
 	define("db","");
 
-	$conn = @mysql_connect(host,user,pass) or die("Veri tabanı bağlanti hatası");
+	//$conn = mysql_connect(host,user,pass) or die("Veri tabanı bağlanti hatası");
 
 ?>
