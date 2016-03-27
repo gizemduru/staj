@@ -15,5 +15,8 @@ function sayfa_getir(){
 	}
 }
 
+function akademisyen_kayit($akademisyen){
+	//veritabanına kayıt işlemleri
+}
 
 ?>
