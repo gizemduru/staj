@@ -37,9 +37,10 @@
 
         </div>
     </div>
-    <div class="orta">
-   <?php include_once("ogrenciuyeol.php");?>
-    </div><div id="gonder">
+    <div class="orta" id="secilenRol">
+        <?php include_once("ogrenciuyeol.php");?>
+    </div>
+    <div id="gonder">
 <input name="kaydol" type="button" value="Kaydol" />
 </div>
 </div>

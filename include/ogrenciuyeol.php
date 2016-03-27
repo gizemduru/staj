@@ -26,8 +26,9 @@
     	<div class="sol">Cinsiyet:</div>
         <div class="sag">
               <select name="cinsiyet" size="1">
-			<option value="cinsiyet">Bay</option>
-            <option value="cinsiyet">Bayan</option></select>
+			          <option value="0">Bay</option>
+                <option value="1">Bayan</option>
+              </select>
         </div>
     </div>
      <div class="satir">
@@ -40,8 +41,9 @@
     	<div class="sol">Şehir:</div>
         <div class="sag">
               <select name="sehir" size="1">
-			<option value="sehir">Trabzon</option>
-            <option value="sehir">İstanbul</option></select>
+			           <option value="61">Trabzon</option>
+                <option value="34">İstanbul</option>
+              </select>
         </div>
     </div>
     <div class="satir">

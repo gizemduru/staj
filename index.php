@@ -7,6 +7,7 @@
 <link href="css/mainHeader.css" rel="stylesheet" type="text/css" />
 <link href="css/uyeol.css" rel="stylesheet" type="text/css" />
 <link href="css/giris.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery1.10.1nin.js"></script>
 <?php
 	include_once("/include/function.php");
 ?>
@@ -24,3 +25,4 @@
 	</div>
 </body>
 </html>
+<script type="text/javascript" src="js/ajax.js"></script>

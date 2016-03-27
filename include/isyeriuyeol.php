@@ -7,9 +7,10 @@
       <div class="satir">
     	<div class="sol">Şehir:</div>
         <div class="sag">
-              <select name="sehir" size="1">
-			<option value="sehir">Trabzon</option>
-            <option value="sehir">İstanbul</option></select>
+            <select name="sehir" size="1">
+			          <option value="61">Trabzon</option>
+                <option value="34">İstanbul</option>
+            </select>
         </div>
     </div>
     <div class="satir">

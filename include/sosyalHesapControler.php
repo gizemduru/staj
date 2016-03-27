@@ -13,11 +13,10 @@
 	 
 	
 	 if(@$_POST["kaydet"]==true)
-	 {
+		{
 			$sosyalHesap->sosyalHesapEkle();
-			echo"tamm";
-			
-	}
+			echo"tamm";	
+		}
 			
 	if(@$_POST["listele"]==true)
 					$sosyalHesap->sosyalHesapListele();

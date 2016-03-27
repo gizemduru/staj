@@ -1,0 +1,75 @@
+#headerAnaDiv{
+	height:auto;
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+	min-width:1000px;
+	background-color:#2B5063;
+}
+#headerLeft ,#headerRight{
+	float:left;
+	width:49%;
+	margin-top:10px;
+	margin-bottom:5px;
+	
+}
+#headerButon{
+	height:35px;
+	border-radius: 3px;
+	min-width:100px;
+	background-color:#15f;
+	line-height:35px;
+}
+#headerRight a
+{
+	margin-top:10px;
+	float:right;
+	text-decoration:none;
+	margin-right:30px;
+}
+#headerLogo{
+	float:left;
+	margin-left:75px;
+	height:64px;
+	border-radius:50px;
+	width:64px;
+	background-color:#186;
+}
+#headerLogo img{
+	width: 64px;
+	height: 64px;
+	border-radius: 50%;
+}
+#headerSlogan{
+	background-color:#ff9;
+	float:left;
+	margin-left:10px;
+	line-height:30px;
+	height:35px;
+	margin-top:30px;
+	
+}
+ a #headerButon span{
+	color:#f2f2f2;
+	margin-left:35%;
+}
+.clear{
+	clear:both;
+}
+#bildirim{
+	height: 32px;
+	width: 32px;
+	padding: 5px;
+	padding: 3px;
+	border-radius: 50%;
+	background-color: rgb(203, 209, 224);
+}
+#bildirimSayisi
+{
+	position: relative;
+	color: #E62525;
+	font-size: 16px;
+	top: -30px;
+    right: -12px;
+    cursor: pointer;
+}
