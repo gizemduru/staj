@@ -21,6 +21,16 @@
 	background-color:#15f;
 	margin-top:30px;
 	line-height:35px;
+	border-radius: 8px;
+}
+.headerButon {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.headerButon:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
 }
 #headerRight a
 {
@@ -30,18 +40,19 @@ text-decoration:none;}
 	float:left;
 	margin-left:25px;
 	height:100px;
-	border-radius:50px;
+	border-radius:20px;
 	width:100px;
-	background-color:#186;
+	/* background-color:#186; */
+	background: url(../img/logo.png);
 }
 #headerSlogan{
-	background-color:#ff9;
+	background-color:#fff;
 	float:left;
-	margin-left:10px;
+	margin-left:50px;
 	line-height:30px;
-	height:35px;
 	margin-top:30px;
-	
+	color:#186;
+	font-size:30px;line-height:60px;
 }
  a .headerButon span{
 	color:#f2f2f2;
