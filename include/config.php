@@ -2,8 +2,8 @@
 	define("host","localhost");
 	define("user","root");
 	define("pass","");
-	define("db","staj_blg_veritabani");
+	define("db","");
 
-	$conn = mysqli_connect(host,user,pass,db) or die("Veri tabanı bağlanti hatası");
-	
+	//$conn = mysql_connect(host,user,pass) or die("Veri tabanı bağlanti hatası");
+
 ?>
