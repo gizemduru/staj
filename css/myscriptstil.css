@@ -1,16 +1,15 @@
-*
-{
+.gosteri > ul{
+	list-style-type:none;
 	padding: 0;
 	margin: 0;
 	border: 0;
 }
 
-ul{
-	list-style-type:none;
-}
-
-span{
+.islem > span{
 	cursor:pointer;
+	padding: 0;
+	margin: 0;
+	border: 0;
 }
 
 .ana{
@@ -19,12 +18,17 @@ span{
 	width:80%;
 	height:600px;
 	border:1px solid #ccc;
+	padding: 0;
+	border: 0;
 }
 
 .gosteri{
 	width:100%;
 	height:85%;
 	background:#eee;
+	padding: 0;
+	margin: 0;
+	border: 0;
 }
 
 .secici{
@@ -32,10 +36,16 @@ span{
 	height:5%;
 	background:#ccc;
 	text-align:center;
+	padding: 0;
+	margin: 0;
+	border: 0;
 }
 
 .islem{
 	width:100%;
 	height:10%;
 	background:#aaa;
+	padding: 0;
+	margin: 0;
+	border: 0;
 }
