@@ -28,7 +28,7 @@
 	{
 		global $conn;
 		$query ="";
-		$result =mysql_query($query,$conn);
+		$result =mysqli_query($query,$conn);
 		if ($result) {
 			//kaydedildi.
 		}else
@@ -36,5 +36,19 @@
 			//Kaydedilemedi
 		}
 	}
+	function girisYap($mail,$sifre){
+		$mail=temizle($mail);
+		$sifre=MD5($sifre);
+		global $conn;
+		$query ="select * from  uyeol_login where mail='$mail' and sifre='$";
+		$result =mysqli_query($query,$conn);
+		if ($result) {
+			//kaydedildi.
+		}else
+		{
+			//Kaydedilemedi
+		}
+	}
+	
 
 ?>
