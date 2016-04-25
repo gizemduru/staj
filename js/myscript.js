@@ -1,16 +1,16 @@
 ﻿$(function(){
 
-var toplam = $("img").length;
-$("img").hide();
+var toplam = $(".slimg").length;
+$(".slimg").hide();
 
 var gosboy = $(".gosteri").height();
 var gosgenis = $(".gosteri").width();
-$("img").css({
+$(".slimg").css({
 	"height":gosboy,
 	"width":gosgenis
 });
-$("img:first").show();
-var n=$("img:first");
+$(".slimg:first").show();
+var n=$(".slimg:first");
 var a=n.index();
 a++;
 
@@ -18,8 +18,8 @@ ileriGos = function(){
 if(n.parent().next("#bitti").children().index() == 0)
 	{
 		n.hide();
-		$("img:first").show();
-		n=$("img:first");
+		$(".slimg:first").show();
+		n=$(".slimg:first");
 		a=1;
 		$(".secici").empty();
 		$(".secici").append(a+"/8");

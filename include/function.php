@@ -1,5 +1,5 @@
 <?php
-
+	
 	require_once("config.php");
 
 	function sayfa_getir()
@@ -28,7 +28,7 @@
 	{
 		global $conn;
 		$query ="";
-		$result =mysqli_query($query,$conn);
+		$result =mysqli_query($conn,$query);
 		if ($result) {
 			//kaydedildi.
 		}else
@@ -40,7 +40,7 @@
 		$mail=temizle($mail);
 		$sifre=MD5($sifre);
 		global $conn;
-		$query ="select * from  uyeol_login where mail='$mail' and parola='$sifre' and onay=1";
+		$query ="select * from uyeol_login where mail='$mail' and parola='$sifre' and onay=1";
 		
 		$sonuc =mysqli_query($conn,$query);
 		$sayi=@mysqli_num_rows($sonuc);
@@ -52,25 +52,25 @@
 				$query ="select * from  ogrenci where login_id='$id' ";
 				$sonuc =mysqli_query($conn,$query);
 				$array=mysqli_fetch_array($sonuc);
-				echo $array["adi"];
-				//$_SESSION["staj"]=new Session($array["login_id"],$array["adi"],$array["soyadi"],$array["mail"],"öğrenci");
-				
+			
+				$_SESSION["staj"]=new Session($array["login_id"],$array["adi"],$array["soyadi"],$array["mail"],"öğrenci");
+				printf( $_SESSION["staj"]);
 			}
 			if($rol=="akademisyen"){
 				$query ="select * from  akademisyen where login_id='$id' ";
 				$sonuc =mysqli_query($conn,$query);
 				$array=mysqli_fetch_array($sonuc);
-				echo $array["ad"];
-				//$_SESSION["staj"]=new Session($array["login_id"],$array["adi"],$array["soyadi"],$array["mail"],"akademisyen");
 				
+				$_SESSION["staj"]=new Session($array["login_id"],$array["adi"],$array["soyadi"],$array["mail"],"akademisyen");
+				printf( $_SESSION["staj"]);
 			}
 			if($rol=="isyeri"){
 				$query ="select * from  isyeri where login_id='$id' ";
 				$sonuc =mysqli_query($conn,$query);
 				$array=mysqli_fetch_array($sonuc);
-				echo $array["adi"];
-				//$_SESSION["staj"]=new Session($array["login_id"],$array["adi"],$array["soyadi"],$array["mail"],"isyeri");
-				
+			
+				$_SESSION["staj"]=new Session($array["login_id"],$array["adi"],$array["soyadi"],$array["mail"],"isyeri");
+					printf( $_SESSION["staj"]);
 			}
 		}
 		}
