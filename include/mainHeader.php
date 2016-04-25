@@ -6,9 +6,9 @@
 		</div>
 	</div>
 	<div id="headerRight">
-		<a href=""><div class="headerButon"><span>Üye Ol</span>
+		<a href="index.php?sayfa=uyeol"><div class="headerButon"><span>Üye Ol</span>
 		</div></a>
-		<a href=""><div class="headerButon"><span>Giriş Yap</span>
+		<a href="index.php?sayfa=giris"><div class="headerButon"><span>Giriş Yap</span>
 		</div></a>
 	</div>
 	<div class="clear"></div>
