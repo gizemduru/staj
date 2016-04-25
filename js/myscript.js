@@ -1,7 +1,4 @@
-﻿
-
-
-$(function(){
+﻿$(function(){
 
 var toplam = $("img").length;
 $("img").hide();
