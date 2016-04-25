@@ -47,6 +47,7 @@
 		if($sayi>0){
 			$array=mysqli_fetch_array($sonuc);
 			$rol=$array["rolu"];
+			$mail=$array["mail"];
 			$id=$array["id"];
 			if($rol=="öğrenci"){
 				$query ="select * from  ogrenci where login_id='$id' ";
@@ -61,8 +62,8 @@
 				$sonuc =mysqli_query($conn,$query);
 				$array=mysqli_fetch_array($sonuc);
 				
-				$_SESSION["staj"]=new Session($array["login_id"],$array["adi"],$array["soyadi"],$array["mail"],"akademisyen");
-				printf( $_SESSION["staj"]);
+				$_SESSION["staj"]=new Session($array["login_id"],$array["ad"],$array["soyad"],$rol,$mail);
+				header("Location: akademisyen/index.php");
 			}
 			if($rol=="isyeri"){
 				$query ="select * from  isyeri where login_id='$id' ";
