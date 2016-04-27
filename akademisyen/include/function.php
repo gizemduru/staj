@@ -1,5 +1,5 @@
 <?php
-	require_once("../../include/config.php");
+	require_once("../include/config.php");
 	
 	function AkademisyenGuncelle($akademisyen)
 	{
@@ -14,4 +14,12 @@
 		}
 	}
 
+	function sayfa_getir()
+	{
+		$sayfa_adi=@$_GET["sayfa"];
+		if($sayfa_adi=="Duyuru"){
+			include_once("duyuru.php");
+		}
+		
+	}
 ?>
